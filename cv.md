@@ -1,6 +1,6 @@
 # Pavel Markov
 
-## Contacts
+## Contact info
  * **Phone** +7-950-422-52-99
  * **E-mail** paullbratsk@gmail.com
  * **Discord** Pavel (@rapatool)
@@ -8,7 +8,7 @@
 
 ## About Me
 
-I am 33 years old, I work as a CNC equipment operator. I like to learn something new, and now I want to master front end development.
+I am 33 years old, I work as a CNC equipment operator. I like to learn something new, and now I want to master frontend development.
 
 ## Education
 
