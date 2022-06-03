@@ -1,10 +1,10 @@
 # Pavel Markov
 
 ## Contact info
- * **Phone** +7-950-422-52-99
- * **E-mail** paullbratsk@gmail.com
- * **Discord** Pavel (@rapatool)
- * **Github** [Rapatool](https://github.com/Rapatool)
+ * **Phone:** +7-950-422-52-99
+ * **E-mail:** paullbratsk@gmail.com
+ * **Discord:** Pavel (@rapatool)
+ * **Github:** [rapatool](https://github.com/Rapatool)
 
 ## About Me
 
