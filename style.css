@@ -1,0 +1,50 @@
+@font-face {
+    font-family: PoBebas-Regular;
+    src: url(./Bebas-Regular.ttf);
+   }
+
+.wrapper {
+min-width: 600px;
+height: 1vh;
+align-content: center;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.photo {
+width: 300px;
+}
+.my-name {
+padding-top: 70 px;
+}
+.main-section {
+    display: flex;
+    margin: 0;
+}
+aside {
+    color: white;
+    background-color: #292934;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main {
+    min-width: calc(100wv- 300px);
+    color: white;
+    background-color: #22222d;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+span {
+    color: yellow;
+}
