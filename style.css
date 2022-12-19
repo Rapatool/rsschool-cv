@@ -1,0 +1,80 @@
+@font-face {
+    font-family: PoBebas-Regular;
+    src: url(./Bebas-Regular.ttf);
+   }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.wrapper {
+
+ }
+header {
+    align-items: center;
+    display: flex;
+}
+.photo {
+width: 300px;
+}
+.my-name {
+padding-top: 70 px;
+}
+.main-section {
+    display: flex;
+}
+aside {
+    color: white;
+    background-color: #292934;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main {
+    
+    color: white;
+    background-color: #22222d;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+h1, h2 {
+    font-family: 'PoBebas-Regular';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 4em;
+    margin-left: 1em;
+    vertical-align: middle;
+}
+h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+p {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+a:hover, :active,:visited {
+    color: white;
+    text-decoration: underline;
+}
+.underline {
+    color: #ffca05;
+}
+footer {
+display: flex;
+vertical-align: middle;
+}
+.footer-banners {
+width: 100px;
+}
+.underhead {
+    text-transform: uppercase;
+    padding-left: 4em;
+}
