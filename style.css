@@ -46,5 +46,11 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 span {
-    color: yellow;
+    color: #ffca05;
+}
+footer {
+display: auto;
+}
+.footer-banners {
+width: 100px;
 }
