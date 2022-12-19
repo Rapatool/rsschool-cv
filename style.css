@@ -20,6 +20,11 @@ header {
     align-items: center;
     display: flex;
 }
+hr {
+color: red;
+width: 20px;
+height: 3px;
+}
 .photo {
 width: 300px;
 }
@@ -82,8 +87,10 @@ a {
     color: #ffca05;
 }
 footer {
+padding: 1em 2em;
 display: flex;
-vertical-align: middle;
+justify-content: end;
+align-items: center;
 }
 .footer-banners {
 width: 100px;
