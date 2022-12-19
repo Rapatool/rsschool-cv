@@ -3,19 +3,16 @@
     src: url(./Bebas-Regular.ttf);
    }
 
-.wrapper {
-min-width: 600px;
-height: 1vh;
-align-content: center;
-}
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: small;
 }
+.wrapper {
+
+ }
 header {
+    align-items: center;
     display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 .photo {
 width: 300px;
@@ -25,7 +22,6 @@ padding-top: 70 px;
 }
 .main-section {
     display: flex;
-    margin: 0;
 }
 aside {
     color: white;
@@ -35,22 +31,50 @@ aside {
     padding-right: 10px;
 }
 main {
-    min-width: calc(100wv- 300px);
+    
     color: white;
     background-color: #22222d;
     padding-left: 25px;
     padding-right: 20px;
 }
-h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
+h1, h2 {
+    font-family: 'PoBebas-Regular';
+    font-weight: 400;
     text-transform: uppercase;
 }
-span {
+h1 {
+    font-size: 4em;
+    margin-left: 1em;
+    vertical-align: middle;
+}
+h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+p {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+a:hover, :active,:visited {
+    color: white;
+    text-decoration: underline;
+}
+.underline {
     color: #ffca05;
 }
 footer {
-display: auto;
+display: flex;
+vertical-align: middle;
 }
 .footer-banners {
 width: 100px;
+}
+.underhead {
+    text-transform: uppercase;
+    padding-left: 4em;
 }
