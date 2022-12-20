@@ -129,3 +129,6 @@ a.nav {
     color: black;
     padding-left: 2em;
 }
+ul, li{
+    display: inline;
+}

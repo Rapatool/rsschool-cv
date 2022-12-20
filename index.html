@@ -24,11 +24,13 @@
             </div>
         </header>
         <nav>
-            <a href="#about" class="nav">About me</a>
-            <a href="#contacts" class="nav">Contacts</a>
-            <a href="#experience" class="nav">Experience</a>
-            <a href="#expertise" class="nav">Expertise</a>
-            <a href="#projects" class="nav">Projects</a>
+            <ul>
+                <li><a href="#about" class="nav">About me</a></li>
+                <li><a href="#contacts" class="nav">Contacts</a></li>
+                <li><a href="#experience" class="nav">Experience</a></li>
+                <li><a href="#expertise" class="nav">Expertise</a></li>
+                <li><a href="#projects" class="nav">Projects</a></li>
+            </ul>
         </nav>
         <div class="main-section">
             <aside>
@@ -71,18 +73,15 @@
                     <h2 id="projects">Projects<span class="underline">_</span></h2>
                     <p><a href="https://rapatool.github.io/rsschool-cv/cv" class="link">My CV</a></p>
                     <p>Code example:</p>
-<pre><code>
-    function peak(arr) {<br>
-    <br>
-    for (let i = 1; i < arr.length - 1; i++) {<br>
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);<br>
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);<br>
-    if (leftSum === rightSum) {<br>
-        return i;<br>
-    } <br>
-    } <br>
-    return -1; <br>
-}
+<pre><code>randomInt() {
+    const min = 100;
+    const max = 200;
+    let rand = Math.floor
+    (min + Math.random() *
+    (max + 1 - min));
+    console.log(rand);
+    }
+    randomInt();
 </code></pre>
                     <div class="interval"></div>
                 </section>
