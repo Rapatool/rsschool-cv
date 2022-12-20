@@ -73,12 +73,11 @@ p {
     font-weight: 300;
     margin-bottom: 1em;
 }
-a:link {
+a.link {
     color: #fd5940;
     text-decoration: underline;
 }
-a:hover,:active,:visited {
-    color: white;
+a:hover {
     text-decoration: none;
 }
 .underline {
@@ -119,4 +118,14 @@ code {
     background-color: #292934;
     display: block;
     padding: 1em 1em
+}
+nav {
+    margin-top: -2em;
+    margin-left: 350px;
+    position: absolute;
+
+}
+a.nav {
+    color: black;
+    padding-left: 2em;
 }
