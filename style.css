@@ -120,3 +120,13 @@ code {
     display: block;
     padding: 1em 1em
 }
+nav {
+    margin-top: -2em;
+    margin-left: 350px;
+    position: absolute;
+
+}
+a.nav {
+    color: black;
+    padding-left: 2em;
+}
